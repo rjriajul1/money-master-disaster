@@ -23,7 +23,7 @@
                     <h5 class="text-lg font-bold mb-4">Income</h5>
                     <div class="mb-3 flex items-center">
                       <label for="income" class="font-bold mr-2 w-20">Income</label>
-                      <input type="text" class="flex-grow form-input" id="income">
+                      <input type="number" class="flex-grow form-input" id="income">
                     </div>
                     <h5 class="text-lg font-bold mb-4">Expenses</h5>
                     <div class="mb-3 flex items-center">
@@ -32,13 +32,13 @@
                     </div>
                     <div class="mb-3 flex items-center">
                       <label for="rent" class="font-bold mr-2 w-20">Rent</label>
-                      <input type="password" class="flex-grow form-input" id="rent">
+                      <input type="number" class="flex-grow form-input" id="rent">
                     </div>
                     <div class="mb-3 flex items-center">
                       <label for="clothes" class="font-bold mr-2 w-20">Clothes</label>
                       <input type="text" class="flex-grow form-input" id="clothes">
                     </div>
-                    <button id="calculate-btn" class="btn bg-fuchsia-600 text-white py-2 px-4 rounded-lg font-bold" onclick="calculateexpense()">Calculate</button>
+                    <button id="calculate-btn" class="btn bg-fuchsia-600 text-white py-2 px-4 rounded-lg font-bold" onclick="calculateExpense()">Calculate</button>
                     <div class="my-4">
                         <h5 class="my-3 font-bold">Total Expense: <span id="total-expense"></span></h5>
                         <h5 class="my-3 font-bold">Balance: <span id="balance"></span></h5>
